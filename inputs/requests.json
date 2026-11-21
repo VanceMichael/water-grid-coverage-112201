@@ -1,0 +1,50 @@
+{
+  "surveys": [
+    {
+      "zone": "渠东",
+      "pipes": [
+        "bc",
+        "cd"
+      ],
+      "from": 39,
+      "to": 56,
+      "isolated": [
+        "cd"
+      ],
+      "rangeKPa": [
+        210,
+        270
+      ]
+    },
+    {
+      "zone": "街西",
+      "pipes": [
+        "ed"
+      ],
+      "from": 48,
+      "to": 58,
+      "isolated": [
+        "ed"
+      ],
+      "rangeKPa": [
+        220,
+        285
+      ]
+    }
+  ],
+  "issuedOrders": [
+    {
+      "order": "D41",
+      "zone": "渠东",
+      "pipe": "bc",
+      "tap": "b",
+      "site": "west",
+      "point": "p",
+      "interval": [
+        49,
+        54
+      ],
+      "issuedAt": 72
+    }
+  ]
+}

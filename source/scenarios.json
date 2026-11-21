@@ -1,0 +1,1307 @@
+{
+  "main": [
+    {
+      "tick": 70,
+      "feeds": {
+        "/pipes": {
+          "data": [
+            {
+              "id": "ab",
+              "a": "a",
+              "b": "b",
+              "normal": "open"
+            },
+            {
+              "id": "bc",
+              "a": "b",
+              "b": "c",
+              "normal": "closed"
+            },
+            {
+              "id": "cd",
+              "a": "c",
+              "b": "d",
+              "normal": "open"
+            },
+            {
+              "id": "ed",
+              "a": "e",
+              "b": "d",
+              "normal": "closed"
+            }
+          ]
+        },
+        "/switches": {
+          "data": [
+            {
+              "id": "P1",
+              "pipe": "bc",
+              "state": "open",
+              "interval": [
+                40,
+                60
+              ],
+              "office": "east",
+              "confirmed": false
+            }
+          ]
+        },
+        "/meters": {
+          "data": [
+            {
+              "site": "east",
+              "point": "p",
+              "tap": "b",
+              "interval": [
+                0,
+                51
+              ]
+            },
+            {
+              "site": "east",
+              "point": "p",
+              "tap": "a",
+              "interval": [
+                51,
+                99
+              ]
+            },
+            {
+              "site": "west",
+              "point": "p",
+              "tap": "c",
+              "interval": [
+                0,
+                99
+              ]
+            },
+            {
+              "site": "west",
+              "point": "q",
+              "tap": "d",
+              "interval": [
+                48,
+                99
+              ]
+            }
+          ]
+        },
+        "/field-returns": {
+          "data": []
+        }
+      },
+      "scan": 4,
+      "records": [
+        {
+          "site": "east",
+          "point": "p",
+          "at": 38,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 39,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 40,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 41,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 42,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 43,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 44,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 45,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 46,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 47,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 48,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 49,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 50,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 51,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 52,
+          "kPa": 251,
+          "valid": false
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 53,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 54,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 55,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 56,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 57,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 39,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 40,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 41,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 42,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 43,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 44,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 45,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 46,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 47,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 48,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 49,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 50,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 51,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 52,
+          "kPa": 251,
+          "valid": false
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 53,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 54,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 55,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 56,
+          "kPa": 218,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "tick": 72,
+      "feeds": {
+        "/pipes": {
+          "data": [
+            {
+              "id": "ab",
+              "a": "a",
+              "b": "b",
+              "normal": "open"
+            },
+            {
+              "id": "bc",
+              "a": "b",
+              "b": "c",
+              "normal": "closed"
+            },
+            {
+              "id": "cd",
+              "a": "c",
+              "b": "d",
+              "normal": "open"
+            },
+            {
+              "id": "ed",
+              "a": "e",
+              "b": "d",
+              "normal": "closed"
+            }
+          ]
+        },
+        "/switches": {
+          "data": [
+            {
+              "id": "Z1",
+              "pipe": "bc",
+              "state": "open",
+              "interval": [
+                40,
+                60
+              ],
+              "office": "east",
+              "confirmed": true
+            },
+            {
+              "id": "Z3",
+              "pipe": "ed",
+              "state": "open",
+              "interval": [
+                48,
+                60
+              ],
+              "office": "west",
+              "confirmed": true
+            }
+          ]
+        },
+        "/meters": {
+          "data": [
+            {
+              "site": "east",
+              "point": "p",
+              "tap": "b",
+              "interval": [
+                0,
+                51
+              ]
+            },
+            {
+              "site": "east",
+              "point": "p",
+              "tap": "a",
+              "interval": [
+                51,
+                99
+              ]
+            },
+            {
+              "site": "west",
+              "point": "p",
+              "tap": "c",
+              "interval": [
+                0,
+                99
+              ]
+            },
+            {
+              "site": "west",
+              "point": "q",
+              "tap": "d",
+              "interval": [
+                48,
+                99
+              ]
+            }
+          ]
+        },
+        "/field-returns": {
+          "data": []
+        }
+      },
+      "scan": 5,
+      "records": [
+        {
+          "site": "east",
+          "point": "p",
+          "at": 38,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 39,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 40,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 41,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 42,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 43,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 44,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 45,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 46,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 47,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 48,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 49,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 50,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 51,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 52,
+          "kPa": 251,
+          "valid": false
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 53,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 54,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 55,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 56,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 57,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 39,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 40,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 41,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 42,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 43,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 44,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 45,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 46,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 47,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 48,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 49,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 50,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 51,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 52,
+          "kPa": 251,
+          "valid": false
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 53,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 54,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 55,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 56,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 48,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 49,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 50,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 51,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 52,
+          "kPa": 251,
+          "valid": false
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 53,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 54,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 55,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 56,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 57,
+          "kPa": 229,
+          "valid": true
+        }
+      ]
+    },
+    {
+      "tick": 73,
+      "feeds": {
+        "/pipes": {
+          "data": [
+            {
+              "id": "ab",
+              "a": "a",
+              "b": "b",
+              "normal": "open"
+            },
+            {
+              "id": "bc",
+              "a": "b",
+              "b": "c",
+              "normal": "closed"
+            },
+            {
+              "id": "cd",
+              "a": "c",
+              "b": "d",
+              "normal": "open"
+            },
+            {
+              "id": "ed",
+              "a": "e",
+              "b": "d",
+              "normal": "closed"
+            }
+          ]
+        },
+        "/switches": {
+          "data": [
+            {
+              "id": "Z1",
+              "pipe": "bc",
+              "state": "open",
+              "interval": [
+                40,
+                60
+              ],
+              "office": "east",
+              "confirmed": true
+            },
+            {
+              "id": "Z2",
+              "pipe": "bc",
+              "state": "closed",
+              "interval": [
+                50,
+                60
+              ],
+              "office": "west",
+              "confirmed": true
+            },
+            {
+              "id": "Z3",
+              "pipe": "ed",
+              "state": "open",
+              "interval": [
+                48,
+                60
+              ],
+              "office": "west",
+              "confirmed": true
+            }
+          ]
+        },
+        "/meters": {
+          "data": [
+            {
+              "site": "east",
+              "point": "p",
+              "tap": "b",
+              "interval": [
+                0,
+                51
+              ]
+            },
+            {
+              "site": "east",
+              "point": "p",
+              "tap": "a",
+              "interval": [
+                51,
+                99
+              ]
+            },
+            {
+              "site": "west",
+              "point": "p",
+              "tap": "c",
+              "interval": [
+                0,
+                99
+              ]
+            },
+            {
+              "site": "west",
+              "point": "q",
+              "tap": "d",
+              "interval": [
+                48,
+                99
+              ]
+            }
+          ]
+        },
+        "/field-returns": {
+          "data": [
+            {
+              "order": "D41",
+              "zone": "渠东",
+              "pipe": "bc",
+              "tap": "b",
+              "site": "west",
+              "point": "p",
+              "interval": [
+                49,
+                54
+              ],
+              "readings": [
+                {
+                  "site": "west",
+                  "point": "p",
+                  "at": 49,
+                  "kPa": 218,
+                  "valid": true
+                },
+                {
+                  "site": "west",
+                  "point": "p",
+                  "at": 50,
+                  "kPa": 229,
+                  "valid": true
+                },
+                {
+                  "site": "west",
+                  "point": "p",
+                  "at": 51,
+                  "kPa": 240,
+                  "valid": true
+                },
+                {
+                  "site": "west",
+                  "point": "p",
+                  "at": 52,
+                  "kPa": 251,
+                  "valid": false
+                },
+                {
+                  "site": "west",
+                  "point": "p",
+                  "at": 53,
+                  "kPa": 262,
+                  "valid": true
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "scan": 5,
+      "records": [
+        {
+          "site": "east",
+          "point": "p",
+          "at": 38,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 39,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 40,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 41,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 42,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 43,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 44,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 45,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 46,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 47,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 48,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 49,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 50,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 51,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 52,
+          "kPa": 251,
+          "valid": false
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 53,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 54,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 55,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 56,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "east",
+          "point": "p",
+          "at": 57,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 39,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 40,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 41,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 42,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 43,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 44,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 45,
+          "kPa": 251,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 46,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 47,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 48,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 49,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 50,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 51,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 52,
+          "kPa": 251,
+          "valid": false
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 53,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 54,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 55,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "p",
+          "at": 56,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 48,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 49,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 50,
+          "kPa": 229,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 51,
+          "kPa": 240,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 52,
+          "kPa": 251,
+          "valid": false
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 53,
+          "kPa": 262,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 54,
+          "kPa": 273,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 55,
+          "kPa": 284,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 56,
+          "kPa": 218,
+          "valid": true
+        },
+        {
+          "site": "west",
+          "point": "q",
+          "at": 57,
+          "kPa": 229,
+          "valid": true
+        }
+      ]
+    }
+  ]
+}
